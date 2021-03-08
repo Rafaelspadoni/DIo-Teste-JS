@@ -1,4 +1,6 @@
-
+/*var fruta = {nome:"maça", cor:"vermelha"}
+console.log(fruta.nome);
+alert(fruta.cor);*/
 
 /*var lista = ["maça", "pera", "laranja"];
 lista.push("uva");
