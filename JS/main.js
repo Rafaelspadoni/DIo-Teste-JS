@@ -1,6 +1,28 @@
+function botao(){
+    document.getElementById("agradece").innerHTML = "Obrigado por clicar ";
+    //alert("Obrigado por clicar"); 
+}
+
+function redirecionar(){
+    window.open("https://www.linkedin.com/in/rafael-gomes-spadoni-b1b200190/")
+}
+
+function trocar(elemento){
+    elemento.innerHTML = "troquei kk"
+    //document.getElementById("mousemove").innerHTML = "troquei kk"
+    //alert("trocar texto");
+}
+function voltar(elemento){
+    elemento.innerHTML = "passe o mouse para trocar"
+    //document.getElementById("mousemove").innerHTML = "passe o mouse para trocar"
+}
+//Function 
+/*
 function soma(n1, n2){
     return n1 + n2;
 }
+
+
 
 function validaIdade(idade){
     var validar;
@@ -12,10 +34,11 @@ function validaIdade(idade){
     return validar;
 }
 
-
 var idade = prompt("qual sua idade ");
 console.log(validaIdade(idade));
 alert(soma(10, 10));
+*/
+
 //Date
 /*var d = new Date();
 alert(d);*/
