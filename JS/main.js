@@ -12,8 +12,10 @@ function validaIdade(idade){
     return validar;
 }
 
+
 var idade = prompt("qual sua idade ");
 console.log(validaIdade(idade));
+alert(soma(10, 10));
 //Date
 /*var d = new Date();
 alert(d);*/
